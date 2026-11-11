@@ -1,0 +1,25 @@
+# Python 缓存
+__pycache__/
+*.pyc
+
+# 虚拟环境
+.venv/
+venv/
+
+# 系统文件
+.DS_Store
+
+# 模型权重
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+
+# 中间数据
+processed_data/
+*.npy
+
+# 环境变量与密钥
+.env
+.env.*
